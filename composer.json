@@ -1,0 +1,21 @@
+{
+    "name": "dikastes/extbase-collection",
+    "description": "This package extends Extbase's QueryResult with Laravel Illuminate's chainable Collection methods (filter, map, reduce etc).",
+    "type": "library",
+    "require": {
+        "illuminate/collections": "^10.5",
+        "typo3/cms-extbase": "^11.5"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Dikastes\\ExtbaseCollection\\": "Classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthias Richter",
+            "email": "matthias@dikastes.de"
+        }
+    ]
+}
